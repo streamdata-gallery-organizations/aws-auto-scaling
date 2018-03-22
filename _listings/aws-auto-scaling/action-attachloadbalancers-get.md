@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachLoadBalancers&k=1:
+  /?Action=AttachLoadBalancers:
     get:
       summary: ' Attach Load Balancers '
       description: Attaches one or more Classic load balancers to the specified Auto
