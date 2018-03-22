@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLifecycleHookTypes&k=1:
+  /?Action=DescribeLifecycleHookTypes:
     get:
       summary: ' Describe Lifecycle Hook Types '
       description: Describes the available types of lifecycle hooks
