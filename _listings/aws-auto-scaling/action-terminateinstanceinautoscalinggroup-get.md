@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TerminateInstanceInAutoScalingGroup&k=1:
+  /?Action=TerminateInstanceInAutoScalingGroup:
     get:
       summary: ' Terminate Instance In Auto Scaling Group '
       description: Terminates the specified instance and optionally adjusts the desired
