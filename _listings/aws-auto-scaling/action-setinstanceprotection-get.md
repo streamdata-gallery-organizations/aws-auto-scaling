@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetInstanceProtection&k=1:
+  /?Action=SetInstanceProtection:
     get:
       summary: ' Set Instance Protection '
       description: Updates the instance protection settings of the specified instances
