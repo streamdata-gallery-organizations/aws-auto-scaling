@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnterStandby&k=1:
+  /?Action=EnterStandby:
     get:
       summary: ' Enter Standby '
       description: Moves the specified instances into Standby mode
