@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoadBalancers&k=1:
+  /?Action=DescribeLoadBalancers:
     get:
       summary: ' Describe Load Balancers '
       description: Describes the load balancers for the specified Auto Scaling group
