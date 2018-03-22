@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAdjustmentTypes&k=1:
+  /?Action=DescribeAdjustmentTypes:
     get:
       summary: ' Describe Adjustment Types '
       description: Describes the policy adjustment types for use with
