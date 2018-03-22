@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeNotificationConfigurations&k=1:
+  /?Action=DescribeNotificationConfigurations:
     get:
       summary: ' Describe Notification Configurations '
       description: Describes the notification actions associated with the specified
