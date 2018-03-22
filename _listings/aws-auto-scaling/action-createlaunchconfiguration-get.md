@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateLaunchConfiguration&k=1:
+  /?Action=CreateLaunchConfiguration:
     get:
       summary: ' Create Launch Configuration '
       description: Creates a launch configuration
