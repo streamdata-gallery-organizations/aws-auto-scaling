@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLifecycleHooks&k=1:
+  /?Action=DescribeLifecycleHooks:
     get:
       summary: ' Describe Lifecycle Hooks '
       description: Describes the lifecycle hooks for the specified Auto Scaling group
