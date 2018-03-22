@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutNotificationConfiguration&k=1:
+  /?Action=PutNotificationConfiguration:
     get:
       summary: ' Put Notification Configuration '
       description: Configures an Auto Scaling group to send notifications when specified
