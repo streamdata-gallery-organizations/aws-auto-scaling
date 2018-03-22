@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateAutoScalingGroup&k=1:
+  /?Action=UpdateAutoScalingGroup:
     get:
       summary: ' Update Auto Scaling Group '
       description: Updates the configuration for the specified Auto Scaling group
