@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteLifecycleHook&k=1:
+  /?Action=DeleteLifecycleHook:
     get:
       summary: ' Delete Lifecycle Hook '
       description: Deletes the specified lifecycle hook
