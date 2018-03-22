@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteScheduledAction&k=1:
+  /?Action=DeleteScheduledAction:
     get:
       summary: ' Delete Scheduled Action '
       description: Deletes the specified scheduled action
