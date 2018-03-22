@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLaunchConfigurations&k=1:
+  /?Action=DescribeLaunchConfigurations:
     get:
       summary: ' Describe Launch Configurations '
       description: Describes one or more launch configurations
