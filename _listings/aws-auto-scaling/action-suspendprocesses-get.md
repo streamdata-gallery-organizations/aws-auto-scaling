@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SuspendProcesses&k=1:
+  /?Action=SuspendProcesses:
     get:
       summary: ' Suspend Processes '
       description: Suspends the specified Auto Scaling processes, or all processes,
