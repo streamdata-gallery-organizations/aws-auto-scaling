@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteLaunchConfiguration&k=1:
+  /?Action=DeleteLaunchConfiguration:
     get:
       summary: ' Delete Launch Configuration '
       description: Deletes the specified launch configuration
