@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateOrUpdateTags&k=1:
+  /?Action=CreateOrUpdateTags:
     get:
       summary: ' Create Or Update Tags '
       description: Creates or updates tags for the specified Auto Scaling group
