@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachLoadBalancers&k=1:
+  /?Action=DetachLoadBalancers:
     get:
       summary: ' Detach Load Balancers '
       description: Detaches one or more Classic load balancers from the specified
