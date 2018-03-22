@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutScheduledUpdateGroupAction&k=1:
+  /?Action=PutScheduledUpdateGroupAction:
     get:
       summary: ' Put Scheduled Update Group Action '
       description: Creates or updates a scheduled scaling action for an Auto Scaling
