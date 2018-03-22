@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMetricCollectionTypes&k=1:
+  /?Action=DescribeMetricCollectionTypes:
     get:
       summary: ' Describe Metric Collection Types '
       description: Describes the available CloudWatch metrics for Auto Scaling
