@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetInstanceHealth&k=1:
+  /?Action=SetInstanceHealth:
     get:
       summary: ' Set Instance Health '
       description: Sets the health status of the specified instance
