@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CompleteLifecycleAction&k=1:
+  /?Action=CompleteLifecycleAction:
     get:
       summary: ' Complete Lifecycle Action '
       description: Completes the lifecycle action for the specified token or instance
