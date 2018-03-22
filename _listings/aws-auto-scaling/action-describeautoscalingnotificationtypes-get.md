@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAutoScalingNotificationTypes&k=1:
+  /?Action=DescribeAutoScalingNotificationTypes:
     get:
       summary: ' Describe Auto Scaling Notification Types '
       description: Describes the notification types that are supported by Auto Scaling
