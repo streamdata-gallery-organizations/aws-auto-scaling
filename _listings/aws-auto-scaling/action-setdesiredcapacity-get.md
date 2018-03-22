@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetDesiredCapacity&k=1:
+  /?Action=SetDesiredCapacity:
     get:
       summary: ' Set Desired Capacity '
       description: Sets the size of the specified Auto Scaling group
