@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteNotificationConfiguration&k=1:
+  /?Action=DeleteNotificationConfiguration:
     get:
       summary: ' Delete Notification Configuration '
       description: Deletes the specified notification
