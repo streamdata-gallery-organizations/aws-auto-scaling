@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachInstances&k=1:
+  /?Action=DetachInstances:
     get:
       summary: ' Detach Instances '
       description: Removes one or more instances from the specified Auto Scaling group
