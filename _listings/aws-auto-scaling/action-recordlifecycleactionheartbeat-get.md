@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RecordLifecycleActionHeartbeat&k=1:
+  /?Action=RecordLifecycleActionHeartbeat:
     get:
       summary: ' Record Lifecycle Action Heartbeat '
       description: Records a heartbeat for the lifecycle action associated with the
