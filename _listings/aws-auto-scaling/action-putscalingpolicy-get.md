@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutScalingPolicy&k=1:
+  /?Action=PutScalingPolicy:
     get:
       summary: ' Put Scaling Policy '
       description: Creates or updates a policy for an Auto Scaling group
