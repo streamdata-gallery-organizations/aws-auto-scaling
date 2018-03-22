@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAutoScalingInstances&k=1:
+  /?Action=DescribeAutoScalingInstances:
     get:
       summary: ' Describe Auto Scaling Instances '
       description: Describes one or more Auto Scaling instances
