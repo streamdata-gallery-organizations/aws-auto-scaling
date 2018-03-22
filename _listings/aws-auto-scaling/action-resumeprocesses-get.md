@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResumeProcesses&k=1:
+  /?Action=ResumeProcesses:
     get:
       summary: ' Resume Processes '
       description: Resumes the specified suspended Auto Scaling processes, or all
