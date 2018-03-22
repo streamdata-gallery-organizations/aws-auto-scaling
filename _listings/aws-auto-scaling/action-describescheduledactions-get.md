@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeScheduledActions&k=1:
+  /?Action=DescribeScheduledActions:
     get:
       summary: ' Describe Scheduled Actions '
       description: Describes the actions scheduled for your Auto Scaling group that
