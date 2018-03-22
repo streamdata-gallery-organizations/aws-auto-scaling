@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ExitStandby&k=1:
+  /?Action=ExitStandby:
     get:
       summary: ' Exit Standby '
       description: Moves the specified instances out of Standby mode
