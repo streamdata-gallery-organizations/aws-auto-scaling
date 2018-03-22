@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeScalingProcessTypes&k=1:
+  /?Action=DescribeScalingProcessTypes:
     get:
       summary: ' Describe Scaling Process Types '
       description: Describes the scaling process types for use with
