@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutLifecycleHook&k=1:
+  /?Action=PutLifecycleHook:
     get:
       summary: ' Put Lifecycle Hook '
       description: Creates or updates a lifecycle hook for the specified Auto Scaling
