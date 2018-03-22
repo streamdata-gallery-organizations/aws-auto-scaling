@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachLoadBalancerTargetGroups&k=1:
+  /?Action=DetachLoadBalancerTargetGroups:
     get:
       summary: ' Detach Load Balancer Target Groups '
       description: Detaches one or more target groups from the specified Auto Scaling
