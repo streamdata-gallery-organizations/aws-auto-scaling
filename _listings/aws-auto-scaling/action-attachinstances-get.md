@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachInstances&k=1:
+  /?Action=AttachInstances:
     get:
       summary: ' Attach Instances '
       description: Attaches one or more EC2 instances to the specified Auto Scaling
