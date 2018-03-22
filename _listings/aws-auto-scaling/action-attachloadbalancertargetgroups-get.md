@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachLoadBalancerTargetGroups&k=1:
+  /?Action=AttachLoadBalancerTargetGroups:
     get:
       summary: ' Attach Load Balancer Target Groups '
       description: Attaches one or more target groups to the specified Auto Scaling
