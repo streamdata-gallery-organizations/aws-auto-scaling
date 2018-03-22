@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAccountLimits&k=1:
+  /?Action=DescribeAccountLimits:
     get:
       summary: ' Describe Account Limits '
       description: Describes the current Auto Scaling resource limits for your AWS
