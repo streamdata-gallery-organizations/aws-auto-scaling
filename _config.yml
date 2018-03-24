@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-auto-scaling.api.streamdata.gallery
+title: Streamdata Gallery AWS Auto Scaling
+url: aws-auto-scaling.streamdata.gallery
 tag: AWS Auto Scaling
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-auto-scaling
 github_branch: master
 collections:
