@@ -11,10 +11,10 @@ description: Auto Scaling helps you maintain application availability and allows
   or weekly variability in usage.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Auto Scaling
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-auto-scaling/master/_listings/aws-auto-scaling/apis.md
 specificationVersion: "0.14"
 apis:
